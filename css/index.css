@@ -1,0 +1,167 @@
+nav {
+    height: 100px;
+    background: #F4B321;
+}
+
+section {
+    background: #73CFE8;
+    padding: 20px 0px;
+}
+
+.initial {
+    height: 400px;
+}
+
+.gamegrid {
+    background: skyblue;
+    border-radius: 10px;
+    height: 480 px;
+    padding: 5px 20px;
+    background: #62B6CB;
+}
+
+.moves-history-container {
+    padding-right: 5px;
+}
+
+.moves-history-inner-container {
+    padding: 5px;
+    background: cyan;
+    border-radius: 10px;
+    height: 400px;
+}
+
+.moves-history-inner-container p {
+    padding: 5px;
+    color: #2E8DC8;
+    font-weight: bold;
+}
+
+.tiles-row {
+    padding: 5px 0px;
+}
+
+.tiles {
+    position: relative;
+    background: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    padding: 5px;
+    background: #62B6CB;
+}
+
+.tiles::after {
+    content: "";
+    display: block;
+    padding-bottom: 100%;
+}
+
+.tiles div {
+    position: absolute;
+    width: 90%;
+    height: 90%;
+    padding-top: 25%;
+    background: #EBEBEB;
+    border-radius: 15px;
+    -webkit-box-shadow: 14px 20px 19px -12px rgba(88, 154, 171, 0.69);
+    -moz-box-shadow: 14px 20px 19px -12px rgba(88, 154, 171, 0.69);
+    box-shadow: 14px 20px 19px -12px rgba(88, 154, 171, 0.69);
+}
+
+.blank-tile div {
+    -webkit-box-shadow: 14px 20px 19px -12px rgba(184, 94, 184, 1);
+    -moz-box-shadow: 14px 20px 19px -12px rgba(184, 94, 184, 1);
+    box-shadow: 14px 20px 19px -12px rgba(184, 94, 184, 1);
+    background: #5DA8BD;
+}
+
+.tile-dragging div {
+    -webkit-box-shadow: 14px 20px 19px -12px rgba(184, 94, 184, 1);
+    -moz-box-shadow: 14px 20px 19px -12px rgba(184, 94, 184, 1);
+    box-shadow: 14px 20px 19px -12px rgba(184, 94, 184, 1);
+    background: #5DA8BD;
+    opacity: 0.5;
+}
+
+.moves,
+.timer {
+    width: 100%;
+    height: 50px;
+    margin-left: 30px;
+    display: flex;
+}
+
+img {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+
+.moves p:first-of-type,
+.timer p:first-of-type {
+    margin-right: 10px;
+}
+
+.initial-buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+.initial-buttons button {
+    width: 80%;
+    margin-top: 10px;
+    color: white;
+}
+
+.undo {
+    background: #F8931F;
+}
+
+.new-game {
+    background: #8CC53E;
+}
+
+.auto-solve {
+    background: #D31359;
+}
+
+.my-moves p {
+    color: deepskyblue;
+}
+
+hr {
+    border: none;
+    border-top: 2px dotted blue;
+    width: 20%;
+    margin-top: 30px;
+}
+
+.level p {
+    text-align: center;
+    margin: 8px 0px;
+    color: blue;
+}
+
+.difficulty-buttons button {
+    margin: 0px 5px;
+}
+
+.easy-btn {
+    background: #B9E7F4;
+    color: #89D3E7;
+}
+
+.med-btn {
+    background: #FEFEFE;
+    color: #F1AA4C;
+}
+
+.diff-btn,
+.custon-btn {
+    background: #B9E7F4;
+    color: #978895;
+}
